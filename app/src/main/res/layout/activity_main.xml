@@ -34,6 +34,8 @@
                     android:id="@+id/etusername"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
+                    android:background="@drawable/edittextbg"
+
                     android:layout_centerHorizontal="true"
 
 
@@ -62,7 +64,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10dp"
                     android:hint="Enter your password"
-
+                    android:background="@drawable/edittextbg"
 
                     android:textSize="14sp"
                     android:singleLine="true"
@@ -85,7 +87,9 @@
                     android:id="@+id/login"
                     android:layout_width="300dp"
                     android:layout_height="40dp"
-                    android:background="#000000"
+                    android:background="@drawable/buttonbackground"
+
+
 
                     android:padding="5dp"
                     android:text="Login"
